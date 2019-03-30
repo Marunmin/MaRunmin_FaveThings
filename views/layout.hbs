@@ -2,9 +2,24 @@
 <html>
   <head>
     <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/main.css' />
   </head>
   <body>
-    {{{body}}}
+    <header id="mainHeader">
+      <nav>
+        <h1>Lexus Three Favorites car</h1>
+        <a href="/">
+          <img src="images/lexcuslogo.png" alt="lexcus" id="logo">
+        </a>
+      </nav>
+    </header>
+    <main>
+      {{{body}}} <!-- this is like router-view in Vue.js -->
+    </main>
+    <footer class="text">
+      <p>This is my favthings &copy; the kind of the lexcus</p>
+    </footer>
   </body>
 </html>
